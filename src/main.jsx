@@ -4,14 +4,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Heart, Volume2, VolumeX, Sparkles, ArrowUpRight } from "lucide-react";
 import "./styles.css";
 
+
 const photos = [
-  "./public/photos/revathi-01.jpeg",
-  "./public/photos/revathi-02.jpeg",
-  "./public/photos/revathi-03.jpeg",
-  "./public/photos/revathi-04.jpeg",
-
+  "/photos/revathi-01.jpeg",
+  "/photos/revathi-02.jpeg",
+  "/photos/revathi-03.jpeg",
+  "/photos/revathi-04.jpeg",
 ];
-
 const memories = [
   { title: "The little moments", text: "Some moments are small, but somehow they stay with us the longest.", image: photos[0] },
   { title: "Comfort", text: "There is a kind of peace that comes from talking to someone who simply feels familiar.", image: photos[1] },
